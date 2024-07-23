@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  font-family: roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  color: #a35200;
+  font-size: 28px;
+}
+.head {
+  color: #334155;
+  font-size: 15px;
+  margin: 0px;
+}
+.toss-img {
+  height: 150px;
+  width: 150px;
+}
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.count-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    padding: 30px;
+  }
+  .main-heading {
+    font-size: 50px;
+  }
+  .head {
+    font-size: 30px;
+  }
+  .toss-img {
+    height: 250px;
+    width: 250px;
+  }
+  .count-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .button {
+    font-size: 30px;
+    padding: 15px;
+  }
+  .count {
+    margin: 10px;
+    font-size: 25px;
+  }
+}
